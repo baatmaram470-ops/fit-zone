@@ -1,16 +1,140 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Fitness</title>
-  <script type="text/javascript">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FitZone | High-Quality Gym Gear & Affordable Equipment</title>
+    <meta name="description" content="Shop FitZone for professional-grade gym products at unbeatable prices. Mobile-friendly shopping for dumbbells, bands, and fitness accessories.">
+    <meta name="keywords" content="FitZone gym, gym products, affordable fitness gear, home workout equipment, cheap gym accessories">
+
+    <style>
+        /* CSS Variables for Brand Consistency */
+        :root {
+            --primary: #ff4500; /* Bold Orange/Red */
+            --dark: #1a1a1a;
+            --light: #ffffff;
+            --gray: #f4f4f4;
+        }
+
+        /* Basic Reset & Typography */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: var(--light); color: var(--dark); line-height: 1.6; }
+
+        /* Header / Hero Section */
+        header {
+            background-color: var(--dark);
+            color: var(--light);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        h1 { font-size: 3rem; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 2px; }
+        .hero-sub { color: var(--primary); font-weight: bold; font-size: 1.2rem; margin-bottom: 25px; }
+
+        /* Mobile Responsive Container */
+        .container { width: 90%; max-width: 1100px; margin: auto; padding: 50px 0; }
+
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .product-card:hover { border-color: var(--primary); transform: translateY(-5px); }
+        .product-card h3 { margin-bottom: 15px; }
+
+        /* CTA Button */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            margin-top: 15px;
+        }
+
+        /* Value Proposition Section */
+        .value-prop {
+            background-color: var(--gray);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .product-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+    <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "wcy6dnxgiz");
 </script>
+
 </head>
 <body>
-<p>Gym products</p>
-<p>Best products cheap price buy now</p>
+
+    <header>
+        <h1>FITZONE</h1>
+        <p class="hero-sub">PREMIUM PRODUCTS. UNBEATABLE PRICES.</p>
+        <a href="#shop" class="btn">Shop the Collection</a>
+    </header>
+
+    <section class="container" id="shop">
+        <h2 style="text-align: center; margin-bottom: 40px;">Best Selling Gear</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <h3>Iron Grip Plates</h3>
+                <p>Standard & Olympic sizes available.</p>
+                <p><strong>From $49.00</strong></p>
+                <a href="#" class="btn" style="font-size: 0.8rem; padding: 10px 20px;">Buy Now</a>
+            </div>
+
+            <div class="product-card">
+                <h3>FitZone Bands</h3>
+                <p>Premium resistance for home or gym.</p>
+                <p><strong>Only $15.99</strong></p>
+                <a href="#" class="btn" style="font-size: 0.8rem; padding: 10px 20px;">Buy Now</a>
+            </div>
+
+            <div class="product-card">
+                <h3>Performance Shaker</h3>
+                <p>BPA-free and leak-proof design.</p>
+                <p><strong>Only $9.99</strong></p>
+                <a href="#" class="btn" style="font-size: 0.8rem; padding: 10px 20px;">Buy Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="value-prop">
+        <div class="container">
+            <h2>Why FitZone?</h2>
+            <p>We cut the middleman to bring you the best gym products at "cheap" prices without sacrificing the durability professional athletes demand.</p>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px; background: #111; color: #777;">
+        <p>&copy; 2026 FitZone | The Best Products at the Best Price.</p>
+    </footer>
+
 </body>
 </html>
+
